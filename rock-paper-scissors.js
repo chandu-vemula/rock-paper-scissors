@@ -100,7 +100,7 @@ function playGame(playerMove) {
     
   } else if (playerMove === 'rock') {
     if (computerMove === 'rock') {
-      result = 'Tie.';
+      result = '  Tie.';
     } else if (computerMove === 'paper') {
       result = 'You lose.';
     } else if (computerMove === 'scissors') {
