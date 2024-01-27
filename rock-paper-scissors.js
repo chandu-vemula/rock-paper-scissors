@@ -1,3 +1,5 @@
+alert("Pick a choice by clicking on the icons");
+
 let score = JSON.parse(localStorage.getItem('score')) || {
   wins: 0,
   losses: 0,
