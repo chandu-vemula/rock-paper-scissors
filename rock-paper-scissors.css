@@ -6,6 +6,7 @@ body{
 .title{
    font-size: 30px;
    font-weight: 700;
+   margin-left: 40px;
 }
 .move-icon{
   height: 50px;
@@ -19,18 +20,21 @@ body{
   border: 3px solid white;
   margin-right: 10px;
   cursor: pointer;
-  transition: background-color 0.15s;
+  transition: background-color 0.15s, border 0.15s;
 }
 .move-button:hover{
-  background-color: rgb(40, 40, 40);
+  background-color: rgb(66, 66, 66);
+  border: 3px solid goldenrod;
 }
 .move-button:active{
-  background-color: rgb(56, 55, 55);;
+  background-color: rgb(56, 55, 55);
+  border: 3px solid white;
 }
 .result{
   font-size: 25px;
   font-weight: 700;
   margin-top: 50px;
+  margin-left: 140px;
 }
 .score{
   margin-top: 60px;
@@ -54,5 +58,9 @@ body{
 }
 
 .container{
-  margin-left: 31%;
+  margin-left: 34%;
+}
+
+.moves{
+  margin-left: 110px;
 }
